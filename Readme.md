@@ -44,23 +44,16 @@ Ensure your password and salt are unique and kept secure. Save the changes in bo
 
 Now that you have the extension files on your computer, you can proceed with [loading the extension in Chrome](#loading-the-extension-in-chrome) as described in the subsequent sections of this README.
 
-### Prerequisites
-
-Before loading the extension, ensure you have:
-
-- Google Chrome browser installed on your computer.
-- The extracted extension directory from the ZIP file you downloaded.
-
 # Loading the Extension in Chrome
 
 This guide will walk you through the process of manually loading your extension into Google Chrome. This is particularly useful for development, testing, or trying out an extension that's not available on the Chrome Web Store.
 
 ## Prerequisites
 
-Before you begin, ensure you have the following:
+Before loading the extension, ensure you have:
 
 - Google Chrome browser installed on your computer.
-- The extension directory containing your unpacked extension.
+- The extracted extension directory from the ZIP file you downloaded.
 
 ## Steps to Load the Extension
 
@@ -97,6 +90,8 @@ Whenever you make changes to the extension's code:
 2. Find your extension in the list.
 3. Click the **Reload** (⟳) button on your extension's card to apply the changes.
 
+# General
+
 ## Privacy and Security
 
 Your privacy and security are paramount. The IIT-D Auto Login Extension is designed with the following principles in mind:
@@ -106,7 +101,7 @@ Your privacy and security are paramount. The IIT-D Auto Login Extension is desig
 
 ## Support and Contributions
 
-For support, suggestions, or contributions, please visit the [Issues](#) section of the GitHub repository. We welcome your feedback and contributions to make this extension even better!
+For support, suggestions, or contributions, please visit the [Issues](issues) section of the GitHub repository. We welcome your feedback and contributions to make this extension even better!
 
 ## Disclaimer
 
