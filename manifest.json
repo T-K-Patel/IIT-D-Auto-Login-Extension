@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": " IIT-D Auto Login Extension",
+  "description": "Welcome to the IIT-D Auto Login Extension! This Chrome extension is designed to simplify and automate the login process for various IIT-Delhi portals. By securely storing your login credentials locally, the extension bypasses the manual labor involved in logging into these portals. With just a simple alert asking for your permission, the extension takes care of the rest, ensuring you're logged in swiftly and securely.",
+  "version": "2.0",
+  "permissions": ["storage", "tabs", "activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "Index.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.iitd.ac.in/*",
+        "http://10.8.2.111:8080/Default/ViewAttendance"
+      ],
+      "js": ["script.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "host_permissions": [
+    "*://*.iitd.ac.in/*",
+    "http://10.8.2.111:8080/Default/ViewAttendance"
+  ],
+  "icons": {
+    "16": "IITD.png",
+    "48": "IITD.png",
+    "128": "IITD.png"
+  }
+}
