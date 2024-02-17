@@ -101,7 +101,7 @@ Your privacy and security are paramount. The IIT-D Auto Login Extension is desig
 
 ## Support and Contributions
 
-For support, suggestions, or contributions, please visit the [Issues](issues) section of the GitHub repository. We welcome your feedback and contributions to make this extension even better!
+For support, suggestions, or contributions, please visit the [Issues](/T-K-Patel/IIT-D-Auto-Login-Extension/issues) section of the GitHub repository. We welcome your feedback and contributions to make this extension even better!
 
 ## Disclaimer
 
