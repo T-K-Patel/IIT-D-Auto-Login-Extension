@@ -88,10 +88,6 @@ Before you begin, ensure you have the following:
    - After loading, your extension should appear on the Extensions page with an **ID**, along with options to inspect views if applicable, remove, or disable the extension.
    - You can also see your extension's icon in the Chrome toolbar, indicating it's active. If it doesn't appear, make sure it's pinned for easy access.
 
-6. **Testing**
-
-   - Ensure to thoroughly test your extension's functionality in various scenarios to confirm it's working as expected.
-   - Use the Developer tools available for extensions to debug and refine your work.
 
 ## Updating the Extension
 
